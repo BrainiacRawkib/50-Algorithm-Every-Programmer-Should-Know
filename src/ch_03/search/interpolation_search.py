@@ -10,8 +10,7 @@ def interpolation_search(elements: list, item):
     idx0 = 0
     idxn = len(elements) - 1
 
-    # while idx0 <= idxn and item >= elements[idx0] and item <= elements[idxn]:
-    while idx0 <= idxn and elements[idx0] <= item <= elements[idxn]:
+    while idx0 <= idxn and item >= elements[idx0] and item <= elements[idxn]:
         # Find the mid-point
         mid = idx0 + int(((float(idxn - idx0) / (elements[idxn] - elements[idx0])) * (item - elements[idx0])))
 
