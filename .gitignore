@@ -161,3 +161,4 @@ cython_debug/
 
 # custom
 src/file_downloads/
+spark-3.1.2-bin-hadoop3.2/
